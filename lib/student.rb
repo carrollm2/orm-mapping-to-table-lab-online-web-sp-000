@@ -10,7 +10,7 @@ class Student
   def initialize(name, grade)
     @name = name
     @grade = grade
-    @all << self
+    @@all << self
   end
 
 
